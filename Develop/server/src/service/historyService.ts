@@ -25,6 +25,7 @@ class HistoryService {
     console.log('cities:', cities);
     return await fs.writeFile('db/db.json', JSON.stringify(cities, null, '\t'));
    }
+
   // TODO: Define a getCities method that reads the cities from the searchHistory.json file and returns them as an array of City objects
    async getCities() {
     return await this.read().then((cities) => {
@@ -39,6 +40,7 @@ class HistoryService {
       return parsedCities;
     })
    }
+   
   // TODO Define an addCity method that adds a city to the searchHistory.json file
    async addCity(city: string) {
     if (!city) {

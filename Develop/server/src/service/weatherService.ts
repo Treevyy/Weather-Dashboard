@@ -98,13 +98,9 @@ class WeatherService {
 
   // TODO: Complete buildForecastArray method
   private async buildForecastArray(currentWeather: any, coordinates: Coordinates): Promise<any> {
-
-
-    const forecastQuery = `https://api.openweathermap.org/data/2.5/forecast?lat=${coordinates.latitude}&lon=${coordinates.longitude}&appid=${process.env.API_KEY}&units=imperial`
-
+    const forecastQuery = `https://api.openweathermap.org/data/2.5/forecast?lat=${coordinates.latitude}&lon=${coordinates.longitude}&appid=${process.env.API_KEY}&units=imperial`;
     const forecastResponse = await fetch(forecastQuery);
     const forecastData = await forecastResponse.json();
-
     const forecastArray = forecastData.list.map((forecast: any) => {
       return {
         date: new Date(forecast.dt * 1000).toLocaleDateString(),
@@ -115,7 +111,6 @@ class WeatherService {
         humidity: forecast.main.humidity
       }
     })
-
     return [
       currentWeather,
       forecastArray[0],
@@ -135,9 +130,7 @@ class WeatherService {
     const currentWeatherQuery = this.buildWeatherQuery(coordinates);
     const currentWeatherData = await this.fetchWeatherData(currentWeatherQuery);
     const parsedCurentWeather = this.parseCurrentWeather(currentWeatherData);
-
     const weatherArray = await this.buildForecastArray(parsedCurentWeather, coordinates);
-
   return weatherArray
   }
 }
