@@ -3,6 +3,7 @@ const router = Router();
 
 import HistoryService from '../../service/historyService.js';
 import WeatherService from '../../service/weatherService.js';
+import historyService from '../../service/historyService.js';
 
 
 /// All of these routes are prefixed with /api/weather
@@ -16,20 +17,33 @@ router.post('/', async (req: Request, res: Response) => {
   console.log("City name: ", city);
 
   const weatherArray = await WeatherService.getWeatherForCity(city)
-
+  HistoryService.addCity(city)
   // return an array
   res.json(weatherArray)
 });
 
 // TODO: GET search history
 // this route is 'api/weather/history'
-router.get('/history', async (req: Request, res: Response) => {
+router.get('/history', async (_req: Request, res: Response) => {
   const historyData = await HistoryService.getCities();
 
   res.json(historyData);
 });
 
 // * BONUS TODO: DELETE city from search history
-router.delete('/history/:id', async (req: Request, res: Response) => {});
+router.delete('/history/:id', async (req: Request, res: Response) => {
+  const id = req.params.id;
+ try {
+  if (!id) {
+    res.status(400).json({ error: 'City ID is required' });
+    return;
+  }
+  await HistoryService.removeCity(id);
+ 
+   res.status(204).end();
+ } catch (error) {
+  res.status(500).json(error);
+ }
+});
 
 export default router;
