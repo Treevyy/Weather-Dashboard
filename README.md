@@ -8,6 +8,7 @@
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Screenshots](#screenshots)
   - [Walkthrough Video](#walkthrough-video)
   - [Contributing](#contributing)
   - [Contributors](#contributors)
