@@ -35,7 +35,7 @@
   Contributions are welcome! If you would like to contribute to this project, please follow these steps: 1. Fork the repository --- 2. Create a new branch (git checkout -b feature-branch). --- 3. Commit your changes (git commit -m "Add new feature"). --- 4. Push to the branch (git push origin feature-branch). --- 5. Open a Pull Request.
 
   ## Contributors
-  Treevyy aka Trevor Moore the main contributor to the assignment. --- 2. Quentin Jones TA --- 3. Andrea Presto TA --- 4. Joem Casusi TA --- 5. Erik Hoversten TA all of these TA's helped me revise and edit my code to function properly during office hours, and through tutoring sessions. Thank you for all your help!
+  Treevyy aka Trevor Moore the main contributor to the assignment. --- 2. Quentin Jones TA --- 3. Andrea Presto TA --- 4. Joem Casusi Tutor --- 5. Erik Hoversten Tutor --- All of these TA's and tutors helped me revise and edit my code to function properly during office hours, and through tutoring sessions. Thank you for all your help!
 
   ## Tests
   To run tests, use the following commands: open package.json at the root level --- 2. Open the terminal use command: npm i --- 3. In the same terminal run command: npm run start:dev
