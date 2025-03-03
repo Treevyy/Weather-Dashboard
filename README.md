@@ -21,6 +21,12 @@
   ## Usage
   Open the application in a web browser. Enter the name of a city in the search input. View the current weather conditions including: city name, date, weather icon & description, temperature, humidity, and wind speed. Will be able to view a 5-day weather forecast with: date, weather icon & description, temperature, wind speed and humidity. Click on a previously searched city from the search history to reload its weather details.
 
+  ## Screenshots
+
+  <img src="Markdown/client-side-preview.png" alt="Client Side Preview" width="600" style="margin-bottom: 20px;">
+
+  <img src="Markdown/server-side-preview.png" alt="Server Side Preview" width="600" style="margin-bottom: 20px;">s
+
   ## Walkthrough Video
   A demo of the application can be found at the following link: https://drive.google.com/file/d/1gu-uWzgSxAm7zvYZarnP5vv36eEb0-IA/view
   
