@@ -51,7 +51,7 @@
   3. Commit your changes (git commit -m "Add new feature")
 
   4. Push to the branch (git push origin feature-branch)
-  
+
   5. Open a pull request
 
   ## Contributors
@@ -70,7 +70,7 @@
   ## Tests
   To run tests, use the following commands: 
 
-  1. open package.json at the root level 
+  1. Open package.json at the root level 
 
   2. Open the terminal use command: npm i 
 
