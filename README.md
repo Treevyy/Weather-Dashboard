@@ -17,7 +17,7 @@
   - [Questions](#questions)
 
   ## Installation
-  To install and set up the application, follow these steps: 1. Git clone https://github.com/Treevyy/Weather-Dashboard.git --- 2. Navigate to the project directory: cd weather-dashboard --- 3. Right click the root package.json file and click open in integrated terminal --- 4. Inside the terminal install the dependencies with the command: npm i --- 5. After dependencies are installed run the application with the command: npm run start:dev
+  To install and set up the application, follow these steps: 1. Git clone https://github.com/Treevyy/Weather-Dashboard.git --- 2. Navigate to the project directory: cd WEATHER-DASHBOARD --- 3. Right click the root package.json file and click open in integrated terminal --- 4. Inside the terminal install the dependencies with the command: npm i --- 5. After dependencies are installed run the application with the command: npm run start:dev
 
   ## Usage
   Open the application in a web browser. Enter the name of a city in the search input. View the current weather conditions including: city name, date, weather icon & description, temperature, humidity, and wind speed. Will be able to view a 5-day weather forecast with: date, weather icon & description, temperature, wind speed and humidity. Click on a previously searched city from the search history to reload its weather details.
