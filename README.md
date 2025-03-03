@@ -17,7 +17,17 @@
   - [Questions](#questions)
 
   ## Installation
-  To install and set up the application, follow these steps: 1. Git clone git@github.com:Treevyy/Weather-Dashboard.git --- 2. Navigate to the project directory: cd WEATHER-DASHBOARD --- 3. Right click the root package.json file and click open in integrated terminal --- 4. Inside the terminal install the dependencies with the command: npm i --- 5. After dependencies are installed run the application with the command: npm run start:dev
+  To install and set up the application, follow these steps: 
+
+  1. Git clone git@github.com:Treevyy/Weather-Dashboard.git
+
+  2. Navigate to the project directory: cd WEATHER-DASHBOARD 
+
+  3. Right click the root package.json file and click open in integrated terminal 
+
+  4. Inside the terminal install the dependencies with the command: npm i 
+
+  5. After dependencies are installed run the application with the command: npm run start:dev
 
   ## Usage
   Open the application in a web browser. Enter the name of a city in the search input. View the current weather conditions including: city name, date, weather icon & description, temperature, humidity, and wind speed. Will be able to view a 5-day weather forecast with: date, weather icon & description, temperature, wind speed and humidity. Click on a previously searched city from the search history to reload its weather details.
@@ -32,13 +42,39 @@
   A demo of the application can be found at the following link: https://drive.google.com/file/d/1gu-uWzgSxAm7zvYZarnP5vv36eEb0-IA/view
   
   ## Contributing
-  Contributions are welcome! If you would like to contribute to this project, please follow these steps: 1. Fork the repository --- 2. Create a new branch (git checkout -b feature-branch). --- 3. Commit your changes (git commit -m "Add new feature"). --- 4. Push to the branch (git push origin feature-branch). --- 5. Open a Pull Request.
+  Contributions are welcome! If you would like to contribute to this project, please follow these steps: 
+
+  1. Fork the repository
+
+  2. Create a new branch (git checkout -b feature-branch)
+
+  3. Commit your changes (git commit -m "Add new feature")
+
+  4. Push to the branch (git push origin feature-branch)
+  
+  5. Open a pull request
 
   ## Contributors
-  Treevyy aka Trevor Moore the main contributor to the assignment. --- 2. Quentin Jones TA --- 3. Andrea Presto TA --- 4. Joem Casusi Tutor --- 5. Erik Hoversten Tutor --- All of these TA's and tutors helped me revise and edit my code to function properly during office hours, and through tutoring sessions. Thank you for all your help!
+  All of these TA's and tutors helped me revise and edit my code to function properly during office hours, and through tutoring sessions. Thank you for all your help!
+
+  1. Treevyy aka Trevor Moore the main contributor to the assignment. 
+
+  2. Quentin Jones TA
+
+  3. Andrea Presto TA
+
+  4. Joem Casusi Tutor
+
+  5. Erik Hoversten Tutor
 
   ## Tests
-  To run tests, use the following commands: open package.json at the root level --- 2. Open the terminal use command: npm i --- 3. In the same terminal run command: npm run start:dev
+  To run tests, use the following commands: 
+
+  1. open package.json at the root level 
+
+  2. Open the terminal use command: npm i 
+
+  3. In the same terminal run command: npm run start:dev
 
   ## License
   
