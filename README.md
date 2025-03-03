@@ -26,7 +26,7 @@
 
   <img src="Markdown/client-side-preview.png" alt="Client Side Preview" width="600" style="margin-bottom: 20px;">
 
-  <img src="Markdown/server-side-preview.png" alt="Server Side Preview" width="600" style="margin-bottom: 20px;">s
+  <img src="Markdown/server-side-preview.png" alt="Server Side Preview" width="600" style="margin-bottom: 20px;">
 
   ## Walkthrough Video
   A demo of the application can be found at the following link: https://drive.google.com/file/d/1gu-uWzgSxAm7zvYZarnP5vv36eEb0-IA/view
