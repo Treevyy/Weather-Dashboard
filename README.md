@@ -19,7 +19,7 @@
   ## Installation
   To install and set up the application, follow these steps: 
 
-  1. Git clone git@github.com:Treevyy/Weather-Dashboard.git
+  1. Git clone: git@github.com:Treevyy/Weather-Dashboard.git
 
   2. Navigate to the project directory: cd WEATHER-DASHBOARD 
 
